@@ -1,0 +1,330 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar {
+    box-sizing: border-box;
+    padding: 30px;
+    height: 60px;
+    background-color: rgb(2,2,72);
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+}
+
+.logo {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.fa-solid{
+    color: rgb(255, 153, 0);
+    font-size: 20px;
+}
+
+.fa-graduation-cap {
+    font-size: 30px;
+}
+
+.name {
+    color: white;
+    font-size: 25px;
+}
+
+.menu {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    gap: 25px;
+}
+
+.link {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5px;
+    color: white;
+    font-size: 16px;
+    text-decoration-line:none;
+}
+
+.link:hover{
+    background-color: cadetblue;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+.menu_items {
+    font-size: 16px;
+}
+
+
+.birinchi {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 70px 90px;
+    gap: 10px;
+}
+
+
+.fa-user-graduate{
+    font-size: 50px;
+    background-color: #2a9d8f;
+    padding: 30px 35px;
+    border-radius: 50px;
+    color: white;
+}
+
+.salomlash{
+    color: rgb(10, 10, 89);
+    font-weight:900 ;
+}
+
+.sinf{
+    color: #2a9d8f;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.qiziqish{
+    color: #14213d;
+}
+
+button {
+    background-color: #fcbf49;
+    padding: 20px;
+    border-radius: 30px;
+    border:none;
+    color: #14213d;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.fa-arrow-down-long{
+    color: #14213d;
+}
+.ikkinchi {
+    display: flex;
+    flex-direction:column ;
+    align-items: start;
+    padding: 70px 90px;
+    gap: 20px;
+    scroll-margin-top: 60px;
+    background-color: #f7f9fc;
+}
+
+.uzun {
+    width: 100%;
+    height: 5px;
+    background-color: #fcbf49;
+    border:none ;
+}
+
+.haqida {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.haqida-icon {
+    color: rgb(17, 119, 119);
+    font-size: 30px;
+}
+
+.haqida h3 {
+    font-size: 25px;
+    color: rgb(4, 4, 45);
+}
+
+.tavsif{
+    color: #14213d;
+}
+
+.malumotlar{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.malumotlar li{
+    display: flex;
+    gap: 5px;
+}
+
+.malumotlar li p {
+    color: #14213d;
+}
+
+.malumotlar li i {
+    color: #2a9d8f;
+}
+
+.uchunchi {
+    display: flex;
+    flex-direction: column;
+    padding: 70px 90px;
+    gap: 30px;
+    background-color: #f7f9fc;
+}
+
+.skills{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.skills i {
+    color: #167c8b;
+    font-size: 30px;
+}
+
+.skills h3 {
+    color:#167c8b ;
+    font-size: 25px;
+    font-weight: 800;
+}
+
+.uchunchi ol {
+    list-style-type: style type none;
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    gap: 30px;
+}
+
+.uchunchi ol li{
+    display: flex;
+    flex-direction: column;
+    border-color: #f7f9fc;
+    padding: 30px;
+    border-left: 5px solid #0c5e6b;
+    border-radius: 20px;
+    gap: 10px;
+}
+
+.uchunchi ol i{
+    color: #167c8b;
+}
+
+.tortinchi {
+    display: flex;
+    flex-direction: column;
+    padding: 70px 90px;
+    gap: 20px;
+    background-color: #f7f9fc;
+}
+
+.tortinchi div {
+ display: flex;
+ gap: 10px;
+ align-items: baseline;
+}
+
+.tortinchi div i {
+    font-size: 30px;
+    color: #16a6bc;
+}
+
+.tortinchi div h3 {
+    color:#14213d;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.tortinchi ol {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    list-style-type: none;
+    gap: 10px;
+}
+
+.tortinchi ol li {
+    width: 300px;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 30px;
+    border-left: 5px solid #16a6bc;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+ 
+.tortinchi ol li i {
+    color: rgb(20, 140, 140);
+    font-size: 25px;
+}
+
+.tortinchi ol li h3 {
+    color: #14213d;
+}
+
+.tortinchi ol li p {
+    color: #142d63;
+    font-size: 14px;
+}
+
+.beshinchi {
+    display: flex;
+    flex-direction: column;
+    padding: 50px 90px;
+    background-color: #f7f9fc;
+    gap: 20px;
+}
+
+.beshinchi div {
+    display: flex;
+    gap: 5px;
+    align-items: baseline;
+}
+
+.beshinchi div i {
+    color: #2a9d8f;
+    font-size: 30px;
+}
+
+.beshinchi div h3 {
+    font-size: 25px;
+    font-weight: 800;
+    color: #14213d;
+}
+
+.beshinchi p {
+    color: #14213d;
+}
+
+.beshinchi ol {
+    list-style-type:none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.beshinchi ol li i {
+    display: flex;
+    gap: 5px;
+    align-items: baseline;
+}
+
+.beshinchi ol li i {
+    color: #2a9d8f;
+    font-size: 16px;
+}
+
+.beshinchi ol li a {
+    text-decoration: none;
+    color: #14213d;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    height: 90px;
+    align-items: center;
+    background-color: #14213d;
+    color: white;
+}
